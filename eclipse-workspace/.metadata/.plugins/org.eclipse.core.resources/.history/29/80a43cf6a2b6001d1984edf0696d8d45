@@ -1,0 +1,12 @@
+package com.luv2code.springdemo;
+
+public class FootballCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOut() {
+		return "footballer turn around twenty times." ;
+	}
+	
+	
+
+}

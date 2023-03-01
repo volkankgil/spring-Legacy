@@ -1,0 +1,12 @@
+package com.luv2code.springdemo;
+
+import java.io.ObjectInputStream.GetField;
+
+public interface FortuneService {
+	
+	public String getFortune();
+	
+	public String getFortune2();
+	
+	public String getFortune3();
+}

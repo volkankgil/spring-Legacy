@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.awt.MediaTracker"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.BaseballCoach"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.TrackCoach"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.CricketCoach"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.FootballCoach"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.FortuneService"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.randomFortuneService"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.luv2code.springdemo.Coach"/>
+</qualifiedTypeNameHistroy>
