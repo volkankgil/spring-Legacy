@@ -24,6 +24,8 @@ public class TrackCoach implements Coach {
 		System.out.println("TrackCoach:inside method initMethod");
 	}
 	
+	//add a destroy method
+	
 	public void destroyedMethod() {
 		System.out.println("TrackCoach:inside method destroyedMethod");
 	}

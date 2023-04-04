@@ -8,9 +8,6 @@ public class MyApp {
 		Coach theCoach=new BaseballCoach(null);
 		
 		//use the object
-		System.out.println(theCoach.getDailyWorkOut());
-		
-
+		System.out.println(theCoach.getDailyWorkOut());	 
 	}
-
 }

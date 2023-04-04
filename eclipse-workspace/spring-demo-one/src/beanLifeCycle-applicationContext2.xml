@@ -22,20 +22,18 @@
     </bean>
     
     <!-- define the dependency -->
-	<bean id="myfortune"
+	<bean id="myfortune2"
 		class="com.luv2code.springdemo.HappyFortuneService">
 	</bean>
     
     <bean id="myCoach"  
     	class="com.luv2code.springdemo.TrackCoach"
-    	init-method="initMethod"
+    	init-method="initMethod"					
     	destroy-method="destroyedMethod">
     	
     	<!-- set up constructor injection  -->
-		<constructor-arg ref="myfortune"/>
+		<constructor-arg ref="myfortune2"/>
     </bean>
-    
- 
     
 </beans>
 

@@ -12,7 +12,7 @@ public class SetterDemoApp {
 				
 				//retrrieve bean from spring container
 				
-				CricketCoach theCoach=context.getBean("myCricketCoach",CricketCoach.class);
+				CricketCoach theCoach=context.getBean("myCricketCoach",CricketCoach.class); //Coach yerine cricketcoach'dan oluşturduk çünkü coach team ve e-mail get metoduna sahip değil
 				
 				//call methods on the bean 
 				

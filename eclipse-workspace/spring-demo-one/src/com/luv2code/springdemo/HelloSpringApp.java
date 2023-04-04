@@ -11,7 +11,7 @@ public class HelloSpringApp {
 		
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
-		//retrrieve bean from spring container
+		//retrieve bean from spring container
 		
 		Coach theCoach=context.getBean("myCoach",Coach.class);
 		

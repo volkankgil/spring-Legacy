@@ -3,12 +3,14 @@ package com.luv2code.springdemo;
 public class CricketCoach implements Coach {
 
 	private FortuneService fortuneService;
+	
 	private String emailAdress;
+	
 	private String team;
 	
 	//create a no-arg constructor
 	public CricketCoach() {
-		System.out.println("CricketCoach: inside setter method - setFortuneService");
+		System.out.println("CricketCoach: inside no-arg constructor");
 	}
 	
 	@Override
@@ -20,11 +22,11 @@ public class CricketCoach implements Coach {
 	public String getDailyFortune() {
 		return fortuneService.getFortune();
 	}
-	
+	 
 	//our setter method
 	public void setfortuneService(FortuneService fortuneService) {
 		this.fortuneService=fortuneService;
-		System.out.println("setter injection in here ");
+		System.out.println("CricketCoach: inside setter method - setFortuneService");
 	}
 	
 	
