@@ -24,6 +24,8 @@ public class SportConfig {
 		return new SwimCoach(sadFortuneService()); //fortune service metod name and Coach metdod return method parameter must be same . 
 	}
 	
+	
+	//ALTTAKİ METODLARI PİNG-PONG COACH İÇİN TANIMLADIK.
 	@Bean
 	public FortuneService marin() {
 		return new MarinFortuneService();

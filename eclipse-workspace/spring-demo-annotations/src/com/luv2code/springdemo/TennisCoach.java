@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 
 
 	@Component("thatSillyCoach")  //if we do not write component name , java assign default component name automaticly.(tennisCoach) name is same class name but first letter start with little.
+	//@Scope("prototype")
 	public class TennisCoach implements Coach { //component anatotion gördüğü anda bean oluşturuyor.yani java nesnesi
 
 	@Autowired	//no need for setter methods or constructor ..this is field injection
@@ -18,10 +19,10 @@ import org.springframework.stereotype.Component;
 	
 	// @Autowired //--configure dependency injection on constructor with @Autowired Annotation
 	public TennisCoach() {
-		System.out.println("inside tennisCoach");
+		System.out.println("inside default constructor");
 	}
 	
-	//define my init method  
+	//define my init method 
 	
 	@PostConstruct
 	public void initmethod() {

@@ -1,4 +1,4 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+	<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <!DOCTYPE html>
 
@@ -39,7 +39,7 @@
 		
 		Favorite Language:  
 		
-		Java <form:radiobutton path="favoriteLanguage" value="Java" />
+		Java <form:radiobutton path="favoriteLanguage" value="Java" />	<!-- Student class'ındaki değişken ismini path'e tanımlıyoruz. -->
 		C# <form:radiobutton path="favoriteLanguage" value="C#" />
 		PHP <form:radiobutton path="favoriteLanguage" value="PHP" />
 		Ruby <form:radiobutton path="favoriteLanguage" value="Ruby" />
@@ -48,7 +48,7 @@
 		
 		Operating Systems:
 		
-		Linux<form:checkbox path="operatingSystems" value="Linux"/>
+		Linux<form:checkbox path="operatingSystems" value="Linux"/>		<!-- Student class'ındaki değişken ismini path'e tanımlıyoruz. Data binding işlemi oluyor -->
 		Windows<form:checkbox path="operatingSystems" value="Windows"/>
 		MAC OS<form:checkbox path="operatingSystems" value="MAC OS"/>
 		

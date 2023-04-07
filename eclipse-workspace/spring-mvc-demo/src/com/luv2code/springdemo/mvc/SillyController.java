@@ -9,6 +9,7 @@ public class SillyController {
 	
 	@RequestMapping("/showForm")
 	public String displayTheForm() {
-		return "Silly";
+		return "silly";
 	}
 }
+	

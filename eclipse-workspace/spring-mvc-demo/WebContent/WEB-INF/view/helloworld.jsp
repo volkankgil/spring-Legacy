@@ -2,7 +2,7 @@
 <html>
 <body>
 
-Hello World of Spring
+<h1>Hello World of Spring</h1> 
 
 <br><br> 
 

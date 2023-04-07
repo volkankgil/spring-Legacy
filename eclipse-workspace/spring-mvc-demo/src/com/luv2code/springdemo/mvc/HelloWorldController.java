@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("/hello")
+@RequestMapping("/hello") //request controller tanımladık çünkü sillycontrollerda showForm requesti var. çakışmaması için yaptık.
 public class HelloWorldController{
 
 	//need a controller method to show the initial HTML form

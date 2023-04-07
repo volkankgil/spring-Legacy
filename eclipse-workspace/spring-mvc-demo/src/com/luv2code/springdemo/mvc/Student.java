@@ -20,7 +20,7 @@ public class Student {
 		//populate country options: used ISO country code
 		countryOptions=new LinkedHashMap<>();
 		
-		countryOptions.put("BR", "BRAZIL");
+		countryOptions.put("BR", "BRAZIL");		
 		countryOptions.put("FR", "FRANCE");
 		countryOptions.put("DE", "GERMANY");
 		countryOptions.put("TR","TURKEY");
